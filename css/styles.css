@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+
+body {
+    /* background: url("https://images.pexels.com/photos/1261180/pexels-photo-1261180.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
+    background: url("https://ibb.co/SPWVD85");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+/*add background, because of background-image*/
+fieldset {
+    background: whitesmoke;
+    padding: 2rem;
+}
+
+/*table styling*/
+
+.manageProduct {           
+    margin: auto;
+}
+
+.card-body {
+    position: relative;
+    height: 48%;
+    padding: 0;
+  }
+
+.card-footer{
+    height: 25%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    /* left: 50%; */
+}
+.card-text {
+    /* height: 35%; */
+    min-height: 27%;
+}
+
+
+.img-style {
+    width: 100%;    /* or 100% of container */
+    height: 18em;      /*  or 100% of container */
+    object-fit: cover; /* none can be an option too as cover may deform it*/
+    object-position: 50% 50%; /* if both 50% will center it*/
+    
+}
+
+.manageProduct .table-style {
+    background-color: #d6cfc7;
+}
+
+td {          
+    text-align: center;
+    vertical-align: middle;
+}
+tr {
+    text-align: center;
+    
+}
+
+a {text-decoration: none;}
+
+/*Navbar*/
+
+.nav-style {
+
+  background-color: #cec1d6
+}
+
+/*change font-size navbar*/
+
+.nav-style a {
+    font-size: 1.8em;
+}
+
+
+
+footer {
+    background-color: #82badf;
+}
+
