@@ -25,7 +25,7 @@ if ($_GET['id']) {
     header("location: error.php");
 }  
 ?>
-
+<?php include "jokes.php" ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -45,6 +45,13 @@ if ($_GET['id']) {
                 width: 70px !important;
                 height: 70px !important;
             }    
+
+            body {
+       
+                background: url("pictures/1971537.jpg");
+                background-size: cover;
+                min-height: 100vh;
+            }
         </style>
     </head>
     <body>

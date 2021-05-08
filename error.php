@@ -1,3 +1,4 @@
+<?php include "jokes.php" ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,6 +6,19 @@
         <title>Error</title>
         <?php require_once 'components/boot.php'?>
         <link rel="stylesheet" href="css/styles.css">    
+    <style>
+                    
+        body {
+       
+            background: url("pictures/1971537.jpg");
+            background-size: cover;
+            min-height: 100vh;
+        }
+
+    </style>    
+
+
+
     </head>
     <body>
         <!--Navbar-component-->

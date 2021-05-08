@@ -49,6 +49,7 @@ if ($_GET['id']) {
 }
 ?>
 
+<?php include "jokes.php" ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,15 +63,12 @@ if ($_GET['id']) {
         }
 
 
-        html, body {
-
-            height: 100%;
-
-            margin: 0;
-
-            padding: 0;
-
-        }
+       body {
+       
+       background: url("pictures/1971537.jpg");
+       background-size: cover;
+       min-height: 100vh;
+   }
 
 
 

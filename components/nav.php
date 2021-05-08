@@ -18,15 +18,13 @@
             </ul>
     </div>
 </nav>
-<!--<div class="container-fluid bg-secondary pt-3">
-<a href='index.php'><button class='btn btn-warning btn-sm' type='button'>More jokes!</button></a>
-        <div class="p-3 mb-2 Joke text-white">
+<div class="container-fluid bg-secondary pt-3 text-white">
+<a href='index.php'><button class='btn btn-warning btn-sm' type='button'>More jokes!</button></a>     
             <marquee class="text fs-3">
                 <?php
                 echo $jokes->joke;
                 ?>
-            </marquee>
-        </div>
-</div> -->
+            </marquee>    
+</div>
 
 

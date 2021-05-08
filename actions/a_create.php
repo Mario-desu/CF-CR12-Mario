@@ -48,6 +48,17 @@ if ($_POST) {
        <link rel="stylesheet" href="../css/styles.css">
          <!--font-awesome-->
        <script src="https://kit.fontawesome.com/3543c7cdbb.js" crossorigin="anonymous"></script>
+
+       <style>
+            
+            body {
+            
+                background: url("../pictures/1971537.jpg");
+                background-size: cover;
+                min-height: 100vh;
+            }
+    
+        </style>  
    </head>
    <body>
         <!--Navbar-component-->

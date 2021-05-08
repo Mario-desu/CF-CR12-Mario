@@ -16,8 +16,8 @@ if(mysqli_num_rows($result)  > 0) {
                         <p class='card-text'>Duration: " .$row['duration']." days</p>
                         <p class='card-text'>Departure: " .$row['departure']."</p>
                         <p class=''>
-                            <span><a href='update.php?id=" .$row['locId']."'><button class='btn btn-primary btn-sm' type='button'><i class='far fa-edit'></i></button></a>
-                            <a href='delete.php?id=" .$row['locId']."'><button class='btn btn-danger btn-sm' type='button'><i class='fas fa-trash'></i></button></a><a href='details.php?id=" .$row['locId']."'><button class='btn btn-info btn-sm  ms-1' type='button'>Details</button></a></span>
+                            <a href='update.php?id=" .$row['locId']."'><button class='btn btn-primary btn-sm' type='button'><i class='far fa-edit'></i></button></a>
+                            <a href='delete.php?id=" .$row['locId']."'><button class='btn btn-danger btn-sm' type='button'><i class='fas fa-trash'></i></button></a><a href='details.php?id=" .$row['locId']."'><button class='btn btn-info btn-sm  ms-1' type='button'>Details</button></a>
                         </p>
 
                     </div>
@@ -30,7 +30,7 @@ if(mysqli_num_rows($result)  > 0) {
 
 $connect->close();
 ?>
-
+<?php include "jokes.php" ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -43,20 +43,26 @@ $connect->close();
           <!--font-awesome-->
         <script src="https://kit.fontawesome.com/3543c7cdbb.js" crossorigin="anonymous"></script>
 <style>
+    body {
+        /* background: url("https://images.pexels.com/photos/1261180/pexels-photo-1261180.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
+        background: url("pictures/1971537.jpg");
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+
     .img-style {
-        width: 100%;    /* or 100% of container */
-        height: 16em;      /*  or 100% of container */
-        object-fit: cover; /* none can be an option too as cover may deform it*/
-        object-position: 50% 50%; /* if both 50% will center it*/
-    
-}
-   
-body {
-    background: url("https://ibb.co/SPWVD85"); 
-    /* background: url("https://ibb.co/SPWVD85");*/
-    background-size: cover;
-    min-height: 100vh;
-}
+            width: 100%;    /* or 100% of container */
+            height: 16em;      /*  or 100% of container */
+            object-fit: cover; /* none can be an option too as cover may deform it*/
+            object-position: 50% 50%; /* if both 50% will center it*/
+        
+            }
+
+
+    h1 {
+        text-shadow: 1px 1px 4px black;
+}       
 
 </style>
 
@@ -66,17 +72,9 @@ body {
     <body>
         <!--Navbar-component-->
        <?php include_once "components/nav.php";?>
+       
 
 
-
-
-       <div><button id= "button" >Get jokes</button>
- 
-            <h1>Jokes</h1>
-            <div id="jokes">
-            <!--our jokes will be displayed in this div-->
-            </div>
-        </div>
 
 
         <div class="manageProduct w-85 mt-3 mb-5 px-3">    
@@ -84,7 +82,7 @@ body {
                 <a href= "create.php"><button class='btn btn-primary'type="button" >Add destination</button></a>
                 <p></p>
             </div>-->
-            <p class='h1 text-center'>Destinations</p>
+            <h1 class='text-center'>Destinations</h1>
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                     
