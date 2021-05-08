@@ -13,7 +13,7 @@ if(mysqli_num_rows($result)  > 0) {
                     <div class='card-body'>
                         <h5 class='card-title'>" .$row['locName']." - " .$row['locCountry']."</h5>
                         <p class='card-text'>Price: € " .$row['locPrice']."</p>
-                        <p class='card-text'>Duration: " .$row['duration']." days</p>
+                        <p class='card-text'>Duration: " .$row['duration']." nights</p>
                         <p class='card-text'>Departure: " .$row['departure']."</p>
                         <p class=''>
                             <a href='update.php?id=" .$row['locId']."'><button class='btn btn-primary btn-sm' type='button'><i class='far fa-edit'></i></button></a>

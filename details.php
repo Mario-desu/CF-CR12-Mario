@@ -29,7 +29,7 @@ if ($_GET['id']) {
         </tr>
         <tr>
             <th>Duration</th>
-            <td>" .$duration."</td>
+            <td>" .$duration." nights</td>
         </tr>
         <tr>
             <th>Departure</th>
