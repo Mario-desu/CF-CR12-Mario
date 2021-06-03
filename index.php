@@ -15,11 +15,10 @@ if(mysqli_num_rows($result)  > 0) {
                         <p class='card-text'>Price: € " .$row['locPrice']."</p>
                         <p class='card-text'>Duration: " .$row['duration']." nights</p>
                         <p class='card-text'>Departure: " .$row['departure']."</p>
-                        <p class=''>
-                            <a href='update.php?id=" .$row['locId']."'><button class='btn btn-primary btn-sm' type='button'><i class='far fa-edit'></i></button></a>
-                            <a href='delete.php?id=" .$row['locId']."'><button class='btn btn-danger btn-sm' type='button'><i class='fas fa-trash'></i></button></a><a href='details.php?id=" .$row['locId']."'><button class='btn btn-info btn-sm  ms-1' type='button'>Details</button></a>
-                        </p>
-
+                    </div>
+                    <div class='card-footer'>
+                    <a href='update.php?id=" .$row['locId']."'><button class='btn btn-primary btn-sm' type='button'><i class='far fa-edit'></i></button></a>
+                    <a href='delete.php?id=" .$row['locId']."'><button class='btn btn-danger btn-sm' type='button'><i class='fas fa-trash'></i></button></a><a href='details.php?id=" .$row['locId']."'><button class='btn btn-info btn-sm  ms-1' type='button'>Details</button></a>
                     </div>
                 </div>
             </div>    ";
@@ -43,12 +42,6 @@ $connect->close();
           <!--font-awesome-->
         <script src="https://kit.fontawesome.com/3543c7cdbb.js" crossorigin="anonymous"></script>
 <style>
-    body {
-        /* background: url("https://images.pexels.com/photos/1261180/pexels-photo-1261180.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
-        background: url("pictures/1971537.jpg");
-        background-size: cover;
-        min-height: 100vh;
-    }
 
 
     .img-style {
@@ -63,6 +56,8 @@ $connect->close();
     h1 {
         text-shadow: 1px 1px 4px black;
 }       
+
+
 
 </style>
 

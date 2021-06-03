@@ -14,6 +14,7 @@ if ($_GET['id']) {
         $description = $data['description'];
         $longitude = $data['longitude']; 
         $latitude = $data['latitude']; 
+        $price = $data['locPrice'];
         $image = $data['image'];
 
         
@@ -34,6 +35,10 @@ if ($_GET['id']) {
         <tr>
             <th>Departure</th>
             <td class='pb-5'>" .$departure."</td>
+        </tr>
+        <tr>
+            <th>Price</th>
+            <td class='pb-5'>€ " .$price."</td>
         </tr>
         <tr>
             <th>Description</th>
@@ -61,15 +66,6 @@ if ($_GET['id']) {
         #map {
             height: 50vh;
         }
-
-
-       body {
-       
-       background: url("pictures/1971537.jpg");
-       background-size: cover;
-       min-height: 100vh;
-   }
-
 
 
             fieldset {

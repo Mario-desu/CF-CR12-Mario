@@ -49,17 +49,6 @@ if ($_POST) {
          <!--font-awesome-->
        <script src="https://kit.fontawesome.com/3543c7cdbb.js" crossorigin="anonymous"></script>
 
-       <style>
-            
-            body {
-            
-                background: url("../pictures/1971537.jpg");
-                background-size: cover;
-                min-height: 100vh;
-            }
-    
-        </style>  
-   </head>
    <body>
         <!--Navbar-component-->
 <?php include_once "../components/nav_actions.php";?>
@@ -74,7 +63,7 @@ if ($_POST) {
            </div >
        </div>
                      <!--Footer-component-->
- <?php include_once "../components/footer.php";?>
+ <?php include_once "../components/footer_sticky.php";?>
 <!--Bootstrap-JS-component-->
 <?php include_once "../components/boot_js.php";?>   
    </body>

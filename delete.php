@@ -46,12 +46,6 @@ if ($_GET['id']) {
                 height: 70px !important;
             }    
 
-            body {
-       
-                background: url("pictures/1971537.jpg");
-                background-size: cover;
-                min-height: 100vh;
-            }
         </style>
     </head>
     <body>
@@ -77,7 +71,7 @@ if ($_GET['id']) {
             </form>
         </fieldset>
         <!--Footer-component-->
-        <?php include_once "components/footer.php";?>
+        <?php include_once "components/footer_sticky.php";?>
         <!--Bootstrap-JS-component-->
         <?php include_once "components/boot_js.php";?>
     </body>

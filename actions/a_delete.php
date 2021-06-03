@@ -28,16 +28,6 @@ if ($_POST) {
         <?php require_once '../components/boot.php'?>  
         <link rel="stylesheet" href="../css/styles.css">
 
-        <style>
-            
-            body {
-            
-                background: url("../pictures/1971537.jpg");
-                background-size: cover;
-                min-height: 100vh;
-            }
-    
-        </style>  
     </head>
     <body>
          <!--Navbar-component-->
@@ -46,13 +36,13 @@ if ($_POST) {
             <div class="mt-3 mb-3">
                 <h1>Delete request response</h1>
             </div>
-            <div class="alert alert-<?=$class;?> shadow rounded" role="alert">
+            <div class="alert alert-<?=$class;?> shadow rounded mt-5" role="alert">
                 <p><?=$message;?></p>
                 <a href='../index.php'><button class="btn btn-success" type='button'>Home</button></a>
             </div>
         </div>
             <!--Footer-component-->
-    <?php include_once "../components/footer.php";?>
+    <?php include_once "../components/footer_sticky.php";?>
     <!--Bootstrap-JS-component-->
     <?php include_once "../components/boot_js.php";?>
     </body>

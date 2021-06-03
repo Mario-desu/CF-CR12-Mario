@@ -16,12 +16,6 @@
                width: 70% ;
            }      
 
-           body {
-                
-                background: url("pictures/1971537.jpg");
-                background-size: cover;
-                min-height: 100vh;
-            }
        </style>
    </head>
    <body>

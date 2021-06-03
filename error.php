@@ -8,12 +8,6 @@
         <link rel="stylesheet" href="css/styles.css">    
     <style>
                     
-        body {
-       
-            background: url("pictures/1971537.jpg");
-            background-size: cover;
-            min-height: 100vh;
-        }
 
     </style>    
 
@@ -32,7 +26,7 @@
             </div>
         </div>
         <!--Footer-component-->
-        <?php include_once "components/footer.php";?>
+        <?php include_once "components/footer_sticky.php";?>
         <!--Bootstrap-JS-component-->
         <?php include_once "components/boot_js.php";?>
     </body>

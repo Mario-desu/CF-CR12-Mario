@@ -9,7 +9,7 @@
 
 body {
     /* background: url("https://images.pexels.com/photos/1261180/pexels-photo-1261180.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); */
-    background: url("../pictures/1971537.jpg");
+    background: url("../pictures/bg-sea.jpg");
     background-size: cover;
     min-height: 100vh;
 }
@@ -24,26 +24,10 @@ fieldset {
 /*table styling*/
 
 .manageProduct {           
-    margin: auto;
+    padding-bottom: 40h;
 }
 
-.card-body {
-    position: relative;
-    height: 48%;
-    padding: 0;
-  }
 
-.card-footer{
-    height: 25%;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    /* left: 50%; */
-}
-.card-text {
-    /* height: 35%; */
-    min-height: 27%;
-}
 
 
 .img-style {
