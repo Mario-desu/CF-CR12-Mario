@@ -31,19 +31,21 @@ if ($_GET['id']) {
         <title>Edit Destination</title>
         <?php require_once 'components/boot.php'?>
         <link rel="stylesheet" href="css/styles.css">
-        <style type= "text/css">
-            fieldset {
-                margin: auto;
-                margin-top: 12vh;
-                margin-bottom: 12vh;
-                width: 70% ;
-            }  
-            .img-thumbnail{
+        <style>
+
+            
+         .img-thumbnail{
                 width: 70px !important;
                 height: 70px !important;
             }     
 
-
+            fieldset {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 7vh;
+                margin-bottom: 20vh;
+                width: 87% ;
+            }  
         </style>
     </head>
     <body>
@@ -100,7 +102,7 @@ if ($_GET['id']) {
             </form>
         </fieldset>
         <!--Footer-component-->
-        <?php include_once "components/footer.php";?>
+        <?php include_once "components/footer_sticky.php";?>
         <!--Bootstrap-JS-component-->
         <?php include_once "components/boot_js.php";?>
     </body>

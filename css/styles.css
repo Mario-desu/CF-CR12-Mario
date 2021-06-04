@@ -14,6 +14,19 @@ body {
     min-height: 100vh;
 }
 
+/*Navbar*/
+
+.nav-style {
+
+    background-color: #cec1d6
+  }
+  
+  /*change font-size navbar*/
+  
+  .nav-style a {
+      font-size: 1.8em;
+  }
+
 
 /*add background, because of background-image*/
 fieldset {
@@ -27,23 +40,26 @@ fieldset {
     padding-bottom: 40h;
 }
 
-
-
+/* Card image */
 
 .img-style {
     width: 100%;    /* or 100% of container */
-    height: 18em;      /*  or 100% of container */
+    height: 16em;      /*  or 100% of container */
     object-fit: cover; /* none can be an option too as cover may deform it*/
     object-position: 50% 50%; /* if both 50% will center it*/
-    
-}
+
+    }
+
+
 
 .manageProduct .table-style {
     background-color: #d6cfc7;
 }
 
+
+
 td {          
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
 }
 tr {
@@ -51,20 +67,10 @@ tr {
     
 }
 
-a {text-decoration: none;}
-
-/*Navbar*/
-
-.nav-style {
-
-  background-color: #cec1d6
+a {
+    text-decoration: none;
 }
 
-/*change font-size navbar*/
-
-.nav-style a {
-    font-size: 1.8em;
-}
 
 
 

@@ -10,12 +10,20 @@
        <title>CR12 Mario</title>
        <style>
            fieldset {
-               margin: auto;
+               margin-left: auto;
+               margin-right: auto;
                margin-top: 13vh;
-               margin-bottom: 13vh;
-               width: 70% ;
+               margin-bottom: 20vh;
+               width: 80% ;
            }      
 
+
+           @media screen and (max-width:450px) {
+   
+            fieldset { width: 95%;} 
+            }
+
+    
        </style>
    </head>
    <body>
@@ -72,7 +80,7 @@
             </form>
         </fieldset>
         <!--Footer-component-->
-       <?php include_once "components/footer.php";?>
+       <?php include_once "components/footer_sticky.php";?>
         <!--Bootstrap-JS-component-->
         <?php include_once "components/boot_js.php";?>
    </body>

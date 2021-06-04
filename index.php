@@ -43,21 +43,9 @@ $connect->close();
         <script src="https://kit.fontawesome.com/3543c7cdbb.js" crossorigin="anonymous"></script>
 <style>
 
-
-    .img-style {
-            width: 100%;    /* or 100% of container */
-            height: 16em;      /*  or 100% of container */
-            object-fit: cover; /* none can be an option too as cover may deform it*/
-            object-position: 50% 50%; /* if both 50% will center it*/
-        
-            }
-
-
-    h1 {
-        text-shadow: 1px 1px 4px black;
-}       
-
-
+.manageProduct h1 {
+    text-shadow: 1px 1px 4px black;
+} 
 
 </style>
 
@@ -90,6 +78,5 @@ $connect->close();
        <?php include_once "components/footer.php";?>
         <!--Bootstrap-JS-component-->
         <?php include_once "components/boot_js.php";?>
-       <script src="ajax.js"></script>
     </body>
 </html>

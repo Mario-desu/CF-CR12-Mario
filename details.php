@@ -61,26 +61,28 @@ if ($_GET['id']) {
         <title>CR12 Mario</title>
         <?php require_once 'components/boot.php'?>
         <link rel="stylesheet" href="css/styles.css">
-        <style type= "text/css">
+        <style>
 
         #map {
             height: 50vh;
         }
 
+        
 
-            fieldset {
-                margin: auto;
-                margin-top: 13vh;
-                margin-bottom: 13vh;
-                width: 95% ;
-            }  
+.fieldDetails {    
+        margin: auto;
+        margin-top: 13vh;
+        margin-bottom: 13vh;
+        width: 95% ;
+    }
+
 
         </style>
     </head>
     <body>
         <!--Navbar-component-->
 <?php include_once "components/nav.php";?>
-        <fieldset class="shadow rounded">
+        <fieldset class="shadow rounded fieldDetails">
             <legend class='h1 text-center'><?php echo $destination ?> </legend>
             <form action="details.php"  method="post" enctype="multipart/form-data">
                 <div>
